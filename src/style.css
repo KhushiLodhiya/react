@@ -35,12 +35,13 @@
 
  .bg h2{
     font-family: 'Times New Roman', Times, serif;
-    padding-left:400px;
+    padding-left:350px;
+    padding-top: 5px;
     font-size: 80px;
  }
 
  .center {
-    padding-left:680px;
+    padding-left:670px;
     font-size: 80px;
     font-family: 'Times New Roman', Times, serif;
  }
@@ -53,21 +54,25 @@
     font-weight: 400;
 }
 
-
-.btn-1 button{
-    width: 220px;
-    height: 30px;
-    background-color: white;
-    margin-left:620px;
-    
-    border-radius: 15px;
+.btn-1 img{
+    height: 90px;
+    width: 97px;
+    position: fixed;
+    top: 93%;
+    left: 55%;
+    transform: translate(-50%, -50%);
 }
 
-.btn-1 h3{
+.btn-1 h4{
+    position: fixed;
+
+    top: 93%;
+    left: 55%;
+    transform: translate(-50%, -50%);
     font-family: 'Times New Roman', Times, serif;
-    color: black;
-    font-weight: 400;
 }
+
+
 .heading{
     margin-top:110px;
 }

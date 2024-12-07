@@ -15,6 +15,7 @@ import aa from './assets/f-1.png'
 import bb from './assets/fb.png'
 import cc from './assets/yt.png'
 import dd from './assets/twi (2).png'
+import btn from './assets/button copy.webp'
 
 
 import './style.css'
@@ -30,16 +31,17 @@ function App() {
         <h1>moooi</h1>
         <p>A LIFE EXTRAORDINARY</p>
         <h2>Get a taste of Monster</h2>
-        <div>
+         <div>
         <h3 className="center">Moon</h3>
-        </div>
+        </div> 
         <div>
         <h4 className="p1">A dining scene designed to captivate the night</h4>
         </div>
-        <div className="btn-1">
-        <button >
-            <h3>Explore Monster Moon</h3>
-       </button>
+       <div className="btn-1">
+        <img src={btn}/>
+       
+            <h4>MENU</h4>
+     
        </div>
      </div>
      </div>
